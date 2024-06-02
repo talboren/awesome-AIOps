@@ -1,14 +1,13 @@
+name: My plan
+level: beginner
+update_id: 983de17b-959f-4e42-89ac-d4c422e4d974
+author: Jit
+version: 0.1
 owners:
   default: null
-name: My plan
-author: Jit
-items:
-  - name: Scan your web application for vulnerabilities
-    uses: >-
-      jitsecurity-controls/jit-plans/items/runtime/item-web-app-scanner.yml@latest
-level: beginner
-version: 0.1
 references:
   - https://www.jit.io
 tags: []
-
+items:
+  - name: Scan your web application for vulnerabilities
+    uses: jitsecurity-controls/jit-plans/items/runtime/item-web-app-scanner.yml@latest
